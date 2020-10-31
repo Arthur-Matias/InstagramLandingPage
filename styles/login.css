@@ -1,0 +1,71 @@
+#login{
+    display: flex;
+    flex-direction: column;
+}
+
+#login input{
+    padding: 9px 0 7px 8px;
+    width: 20em;
+    border: 1px solid rgba(219,219,219);
+    background-color: var(--bg-color);
+    font-size: 12px;
+    text-overflow: ellipsis;
+}
+
+#login input:first-child{
+    margin-bottom: .5em;
+}
+
+#login button{
+    padding: .5em 5em;
+    background-color: var(--main-blue);
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: .5em;
+}
+hr{
+    background-color:#262626;
+    box-sizing:border-box;
+    width:100%;
+    margin: 0 .5em;
+    height: 2px;
+    align-self: center;
+}
+
+.login-facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5em;
+}
+
+.login-facebook h3{
+    color: #00376b;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#fb-logo{
+    height: 20px;
+    margin-right: .3em;
+    color: #00376b ;
+}
+
+.forgot-pass{
+    text-decoration: none;
+    margin-top: 1em;
+    font-size: 12px;
+    font-weight: normal;
+    color: #262626;
+}
+
+.forgot-pass{
+    color: #00376b;
+}
+
+#register{
+    color: var(--main-blue);
+    text-decoration: none;
+}
